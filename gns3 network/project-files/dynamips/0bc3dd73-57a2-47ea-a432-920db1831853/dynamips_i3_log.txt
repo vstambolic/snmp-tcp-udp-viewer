@@ -1,0 +1,45 @@
+Oct 12 09:39:59.125 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Oct 12 09:39:59.125 HYPERVISOR: Started on IP = Localhost, TCP port = 40975.
+Oct 12 09:39:59.136 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 12 09:39:59.136 HYPERVISOR: exec_cmd: hypervisor working_dir /home/pavle/Documents/GNS3/projects/SNMP_setup/project-files/dynamips 
+Oct 12 09:39:59.136 GENERAL: working_dir=/home/pavle/Documents/GNS3/projects/SNMP_setup/project-files/dynamips
+Oct 12 09:39:59.136 HYPERVISOR: exec_cmd: hypervisor working_dir /home/pavle/Documents/GNS3/projects/SNMP_setup/project-files/dynamips/0bc3dd73-57a2-47ea-a432-920db1831853 
+Oct 12 09:39:59.136 GENERAL: working_dir=/home/pavle/Documents/GNS3/projects/SNMP_setup/project-files/dynamips/0bc3dd73-57a2-47ea-a432-920db1831853
+Oct 12 09:39:59.136 HYPERVISOR: exec_cmd: vm create R3 3 c3745 
+Oct 12 09:39:59.137 VM: VM R3 created.
+Oct 12 09:39:59.137 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5003 
+Oct 12 09:39:59.137 HYPERVISOR: exec_cmd: c3745 get_mac_addr R3 
+Oct 12 09:39:59.137 HYPERVISOR: exec_cmd: vm set_disk0 R3 0 
+Oct 12 09:39:59.138 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 12 09:39:59.138 HYPERVISOR: exec_cmd: vm set_idle_pc R3 0x60a80f7c 
+Oct 12 09:39:59.138 HYPERVISOR: exec_cmd: vm set_ios R3 /home/pavle/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Oct 12 09:39:59.139 HYPERVISOR: exec_cmd: c3745 set_mac_addr R3 c403.18e7.0000 
+Oct 12 09:39:59.139 HYPERVISOR: exec_cmd: vm set_nvram R3 256 
+Oct 12 09:39:59.139 HYPERVISOR: exec_cmd: vm set_ram R3 256 
+Oct 12 09:39:59.139 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 12 09:39:59.140 HYPERVISOR: exec_cmd: vm slot_add_binding R3 1 0 NM-1FE-TX 
+Oct 12 09:39:59.140 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 12 09:39:59.140 HYPERVISOR: exec_cmd: vm slot_add_binding R3 2 0 NM-1FE-TX 
+Oct 12 09:39:59.140 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 12 09:39:59.140 HYPERVISOR: exec_cmd: vm slot_add_binding R3 3 0 NM-1FE-TX 
+Oct 12 09:39:59.140 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 12 09:39:59.141 HYPERVISOR: exec_cmd: vm slot_add_binding R3 4 0 NM-1FE-TX 
+Oct 12 09:39:59.141 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 16 WIC-2T 
+Oct 12 09:39:59.141 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 32 WIC-2T 
+Oct 12 09:39:59.811 HYPERVISOR: exec_cmd: nio create_udp udp-1b109081-d4e2-4d24-a12a-4f3e99341d4c 10014 127.0.0.1 10015 
+Oct 12 09:40:00.032 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 0 udp-1b109081-d4e2-4d24-a12a-4f3e99341d4c 
+Oct 12 09:40:00.034 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 12 09:40:00.100 HYPERVISOR: exec_cmd: nio create_udp udp-4b8cfe36-7a9d-4adb-ba36-3a931a4305ce 10018 127.0.0.1 10019 
+Oct 12 09:40:00.105 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 1 udp-4b8cfe36-7a9d-4adb-ba36-3a931a4305ce 
+Oct 12 09:40:00.105 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 12 09:40:13.669 HYPERVISOR: exec_cmd: vm set_ios R3 /home/pavle/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Oct 12 09:42:18.765 HYPERVISOR: exec_cmd: vm set_ios R3 /home/pavle/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Oct 12 09:46:37.282 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
+Oct 12 09:46:37.284 HYPERVISOR: exec_cmd: vm set_ghost_file R3 /home/pavle/Documents/GNS3/projects/SNMP_setup/project-files/dynamips/c3745-advipservicesk9-mz.124-25d.image-256.ghost 
+Oct 12 09:46:37.284 HYPERVISOR: exec_cmd: vm get_status R3 
+Oct 12 09:46:37.285 HYPERVISOR: exec_cmd: vm set_config R3 configs/i3_startup-config.cfg 
+Oct 12 09:46:37.285 HYPERVISOR: exec_cmd: vm start R3 
+Oct 12 09:50:37.588 HYPERVISOR: exec_cmd: vm extract_config R3 
+Oct 12 09:50:37.596 HYPERVISOR: exec_cmd: vm extract_config R3 
+Oct 12 09:54:37.626 HYPERVISOR: exec_cmd: vm extract_config R3 
+Oct 12 09:54:37.629 HYPERVISOR: exec_cmd: vm extract_config R3 
